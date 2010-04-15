@@ -1,0 +1,4 @@
+set -ex
+javac -cp $TOMCAT_HOME/server/lib/catalina.jar:$TOMCAT_HOME/bin/log4j-1.2.15.jar Log4JInitializer.java
+rm -f log4j-initializer.jar
+jar cf log4j-initializer.jar *.class
