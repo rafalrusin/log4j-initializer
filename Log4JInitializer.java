@@ -18,7 +18,6 @@ public class Log4JInitializer implements LifecycleListener
         this.propertiesFile = propertiesFile;
     }
 
-    @Override
     public void lifecycleEvent(LifecycleEvent event)
     {
         if (Lifecycle.BEFORE_START_EVENT.equals(event.getType()))
