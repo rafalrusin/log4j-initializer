@@ -11,3 +11,6 @@ Put log4j-initializer.jar to server/lib directory.
 * Notes
 Build instructions are for Apache Tomcat 5.5
 
+* Credits:
+http://janvanbesien.blogspot.com/2010/02/reload-log4j-configuration-in-tomcat.html
+
